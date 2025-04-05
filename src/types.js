@@ -18,7 +18,7 @@ export const elements = new Map();
 export function validateElement(element) {
   const requiredFields = ['type', 'x', 'y'];
   const hasRequiredFields = requiredFields.every(field => field in element);
-  
+
   if (!hasRequiredFields) {
     throw new Error(`Missing required fields: ${requiredFields.join(', ')}`);
   }
@@ -32,5 +32,5 @@ export function validateElement(element) {
 
 // Helper function to generate unique IDs
 export function generateId() {
-  return Date.now().toString(36) + Math.random().toString(36).substr(2);
-} 
+  return Date.now().toString(36) + Math.random().toString(36).slice(2);
+}

@@ -2,6 +2,12 @@
 
 A comprehensive Model Context Protocol (MCP) server that enables seamless interaction with Excalidraw diagrams and drawings. This server provides LLMs (Large Language Models) with the ability to create, modify, query, and manipulate Excalidraw drawings through a structured, developer-friendly API.
 
+## Main Changes of this fork
+
+- Enable [mermaid-to-excalidraw](https://docs.excalidraw.com/docs/@excalidraw/mermaid-to-excalidraw/installation)
+- Add save to and load from .excalidraw files
+- [ ] Implement advanced element manipulation
+
 ## Features
 
 - **Full Excalidraw Element Control**: Create, update, delete, and query any Excalidraw element
@@ -195,6 +201,9 @@ Here are some practical examples of how to use the Excalidraw MCP server:
 }
 ```
 
+## Credits
+This project is a fork of (mcp_excalidraw)[https://github.com/yctimlin/mcp_excalidraw] by [yctimlin](https://github.com/yctimlin), with additional features and modifications. The original project provided the foundation for this MCP server.
+
 ## License
 
-This Excalidraw MCP server is licensed under the MIT License. You are free to use, modify, and distribute the software, subject to the terms and conditions of the MIT License. For more details, please see the LICENSE file in the project repository. 
+This Excalidraw MCP server is licensed under the MIT License. You are free to use, modify, and distribute the software, subject to the terms and conditions of the MIT License. For more details, please see the LICENSE file in the project repository.
